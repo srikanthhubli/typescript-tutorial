@@ -1,0 +1,24 @@
+{
+    "compilerOptions": {
+      "target": "ES2020",                          // Modern JS target
+      "module": "CommonJS",                        // Use "ESNext" for ESM-based projects
+      "lib": ["ES2020", "DOM"],                    // Add "DOM" if used in a browser context
+      "allowJs": true,                             // Allow JavaScript files to be compiled
+      "checkJs": false,                            // Disable type checking on JS files
+      "jsx": "react-jsx",                          // Change to "preserve" or "react" if needed
+      "strict": true,                              // Enable all strict type checks
+      "moduleResolution": "node",                  // Node.js-style module resolution
+      "esModuleInterop": true,                     // For compatibility with CommonJS modules
+      "forceConsistentCasingInFileNames": true,    // Enforce case sensitivity
+      "noImplicitReturns": true,                   // Ensure functions return something
+      "noFallthroughCasesInSwitch": true,          // Prevent fallthrough in switch statements
+      "resolveJsonModule": true,                   // Allow importing JSON files
+      "isolatedModules": true,                     // Useful for tools like Babel
+      "outDir": "dist",                            // Output folder
+      "rootDir": "src",                            // Source folder
+      "skipLibCheck": true                         // Skip type checking of declaration files
+    },
+    "include": ["src"],                            // Files to include
+    "exclude": ["node_modules", "dist", "**/*.test.ts"] // Excluded files
+  }
+  

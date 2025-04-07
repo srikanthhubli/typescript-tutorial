@@ -1,0 +1,10 @@
+to start the web UI 
+
+sudo /usr/pgadmin4/bin/setup-web.sh
+
+srikanthh@trustgrid.com  - email
+admin -pass 
+
+
+nvm list 
+nvm use v22.14.0
